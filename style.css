@@ -2,10 +2,13 @@ body {
     margin: 0;
 }
 
-.top {
+.container {
     background-color: #1F2937;
     color: #F9FAF8;
     font-family: roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 ul,
@@ -36,6 +39,7 @@ h1 {
 ul {
     list-style: none;
     display: flex;
+    gap: 15px;
 }
 
 .main-text {
