@@ -120,7 +120,7 @@
      font-style: italic;
      display: flex;
      flex-direction: column;
-     padding: 200px;
+     padding: 150px;
  }
 
  .quote-name {
@@ -129,3 +129,36 @@
 
 
  /* sign up section */
+
+ .sign-up {
+     display: flex;
+     background-color: #3882F6;
+     margin: 125px;
+     padding: 50px;
+     border-radius: 15px;
+     color: white;
+     justify-content: space-around;
+ }
+
+ .sign-up-text {
+     display: flex;
+     flex-direction: column;
+
+ }
+
+ .sign-up button {
+     border-radius: 15px;
+     border: 1px solid white;
+     font-weight: bolder;
+     flex-basis: 125px;
+ }
+
+
+ /* footer section */
+
+ .footer {
+     background-color: #1F2937;
+     color: white;
+     text-align: center;
+     padding: 50px;
+ }
